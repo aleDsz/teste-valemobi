@@ -2039,3 +2039,327 @@ SELECT codigoMercadoria, tipo, nome, qntd, preco, tipoNegocio
 [13/10/2016 23:32:34.000000] [RAR\Framework\Database\Objects\ObjectContext::GetObjects] [TRACE] - Inserindo valor na propriedade [Entities\Mercadoria->Quantidade]: '1'
 [13/10/2016 23:32:34.000000] [RAR\Framework\Database\Objects\ObjectContext::GetObjects] [TRACE] - Inserindo valor na propriedade [Entities\Mercadoria->Preco]: '1.00'
 [13/10/2016 23:32:34.000000] [RAR\Framework\Database\Objects\ObjectContext::GetObjects] [TRACE] - Inserindo valor na propriedade [Entities\Mercadoria->TipoNegocio]: '1'
+[14/10/2016 00:10:43.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->CodigoMercadoria]
+[14/10/2016 00:10:43.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->CodigoMercadoria
+[14/10/2016 00:10:43.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->Tipo]
+[14/10/2016 00:10:43.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->Tipo
+[14/10/2016 00:10:43.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->Nome]
+[14/10/2016 00:10:43.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->Nome
+[14/10/2016 00:10:43.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->Quantidade]
+[14/10/2016 00:10:43.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->Quantidade
+[14/10/2016 00:10:43.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->Preco]
+[14/10/2016 00:10:43.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->Preco
+[14/10/2016 00:10:43.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->TipoNegocio]
+[14/10/2016 00:10:43.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->TipoNegocio
+[14/10/2016 00:10:43.000000] [RAR\Framework\Database\Objects\ObjectContext::GetTableName] [TRACE] - Obtendo tabela da classe [Entities\Mercadoria]: 'mercadoria'
+[14/10/2016 00:10:43.000000] [RAR\Framework\Database\SQL\QueryBuilders\SelectQueryBuilder::ToString] [TRACE] - SQL: 
+SELECT codigoMercadoria, tipo, nome, qntd, preco, tipoNegocio
+  FROM mercadoria
+[14/10/2016 00:10:44.000000] [RAR\Framework\Database\Data\DataContext::ExecuteReader] [TRACE] - 1 registro(s) encontrado(s)
+[14/10/2016 00:10:44.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->CodigoMercadoria]
+[14/10/2016 00:10:44.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->CodigoMercadoria
+[14/10/2016 00:10:44.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->Tipo]
+[14/10/2016 00:10:44.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->Tipo
+[14/10/2016 00:10:44.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->Nome]
+[14/10/2016 00:10:44.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->Nome
+[14/10/2016 00:10:44.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->Quantidade]
+[14/10/2016 00:10:44.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->Quantidade
+[14/10/2016 00:10:44.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->Preco]
+[14/10/2016 00:10:44.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->Preco
+[14/10/2016 00:10:44.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->TipoNegocio]
+[14/10/2016 00:10:44.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->TipoNegocio
+[14/10/2016 00:10:44.000000] [RAR\Framework\Database\Objects\ObjectContext::GetObjects] [TRACE] - Inserindo valor na propriedade [Entities\Mercadoria->CodigoMercadoria]: '1'
+[14/10/2016 00:10:44.000000] [RAR\Framework\Database\Objects\ObjectContext::GetObjects] [TRACE] - Inserindo valor na propriedade [Entities\Mercadoria->Tipo]: '1'
+[14/10/2016 00:10:44.000000] [RAR\Framework\Database\Objects\ObjectContext::GetObjects] [TRACE] - Inserindo valor na propriedade [Entities\Mercadoria->Nome]: 'teste'
+[14/10/2016 00:10:44.000000] [RAR\Framework\Database\Objects\ObjectContext::GetObjects] [TRACE] - Inserindo valor na propriedade [Entities\Mercadoria->Quantidade]: '1'
+[14/10/2016 00:10:44.000000] [RAR\Framework\Database\Objects\ObjectContext::GetObjects] [TRACE] - Inserindo valor na propriedade [Entities\Mercadoria->Preco]: '1.00'
+[14/10/2016 00:10:44.000000] [RAR\Framework\Database\Objects\ObjectContext::GetObjects] [TRACE] - Inserindo valor na propriedade [Entities\Mercadoria->TipoNegocio]: '1'
+[14/10/2016 00:10:45.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->CodigoMercadoria]
+[14/10/2016 00:10:45.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->CodigoMercadoria
+[14/10/2016 00:10:45.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->Tipo]
+[14/10/2016 00:10:45.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->Tipo
+[14/10/2016 00:10:45.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->Nome]
+[14/10/2016 00:10:45.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->Nome
+[14/10/2016 00:10:45.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->Quantidade]
+[14/10/2016 00:10:45.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->Quantidade
+[14/10/2016 00:10:45.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->Preco]
+[14/10/2016 00:10:45.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->Preco
+[14/10/2016 00:10:45.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->TipoNegocio]
+[14/10/2016 00:10:45.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->TipoNegocio
+[14/10/2016 00:10:45.000000] [RAR\Framework\Database\Objects\ObjectContext::GetTableName] [TRACE] - Obtendo tabela da classe [Entities\Mercadoria]: 'mercadoria'
+[14/10/2016 00:10:45.000000] [RAR\Framework\Database\SQL\QueryBuilders\SelectQueryBuilder::ToString] [TRACE] - SQL: 
+SELECT codigoMercadoria, tipo, nome, qntd, preco, tipoNegocio
+  FROM mercadoria
+[14/10/2016 00:10:46.000000] [RAR\Framework\Database\Data\DataContext::ExecuteReader] [TRACE] - 1 registro(s) encontrado(s)
+[14/10/2016 00:10:46.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->CodigoMercadoria]
+[14/10/2016 00:10:46.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->CodigoMercadoria
+[14/10/2016 00:10:46.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->Tipo]
+[14/10/2016 00:10:46.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->Tipo
+[14/10/2016 00:10:46.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->Nome]
+[14/10/2016 00:10:46.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->Nome
+[14/10/2016 00:10:46.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->Quantidade]
+[14/10/2016 00:10:46.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->Quantidade
+[14/10/2016 00:10:46.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->Preco]
+[14/10/2016 00:10:46.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->Preco
+[14/10/2016 00:10:46.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->TipoNegocio]
+[14/10/2016 00:10:46.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->TipoNegocio
+[14/10/2016 00:10:46.000000] [RAR\Framework\Database\Objects\ObjectContext::GetObjects] [TRACE] - Inserindo valor na propriedade [Entities\Mercadoria->CodigoMercadoria]: '1'
+[14/10/2016 00:10:46.000000] [RAR\Framework\Database\Objects\ObjectContext::GetObjects] [TRACE] - Inserindo valor na propriedade [Entities\Mercadoria->Tipo]: '1'
+[14/10/2016 00:10:46.000000] [RAR\Framework\Database\Objects\ObjectContext::GetObjects] [TRACE] - Inserindo valor na propriedade [Entities\Mercadoria->Nome]: 'teste'
+[14/10/2016 00:10:46.000000] [RAR\Framework\Database\Objects\ObjectContext::GetObjects] [TRACE] - Inserindo valor na propriedade [Entities\Mercadoria->Quantidade]: '1'
+[14/10/2016 00:10:46.000000] [RAR\Framework\Database\Objects\ObjectContext::GetObjects] [TRACE] - Inserindo valor na propriedade [Entities\Mercadoria->Preco]: '1.00'
+[14/10/2016 00:10:46.000000] [RAR\Framework\Database\Objects\ObjectContext::GetObjects] [TRACE] - Inserindo valor na propriedade [Entities\Mercadoria->TipoNegocio]: '1'
+[14/10/2016 00:10:50.000000] [RAR\Framework\Database\Objects\ObjectContext::FillObject] [TRACE] - Preenchendo objeto [Entities\Mercadoria->CodigoMercadoria]: '1'
+[14/10/2016 00:10:51.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->CodigoMercadoria]
+[14/10/2016 00:10:51.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->CodigoMercadoria
+[14/10/2016 00:10:51.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->Tipo]
+[14/10/2016 00:10:51.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->Tipo
+[14/10/2016 00:10:51.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->Nome]
+[14/10/2016 00:10:51.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->Nome
+[14/10/2016 00:10:51.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->Quantidade]
+[14/10/2016 00:10:51.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->Quantidade
+[14/10/2016 00:10:51.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->Preco]
+[14/10/2016 00:10:51.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->Preco
+[14/10/2016 00:10:51.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->TipoNegocio]
+[14/10/2016 00:10:51.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->TipoNegocio
+[14/10/2016 00:10:51.000000] [RAR\Framework\Database\Objects\ObjectContext::GetTableName] [TRACE] - Obtendo tabela da classe [Entities\Mercadoria]: 'mercadoria'
+[14/10/2016 00:10:51.000000] [RAR\Framework\Database\SQL\QueryBuilders\SelectQueryBuilder::ToString] [TRACE] - SQL: 
+SELECT codigoMercadoria, tipo, nome, qntd, preco, tipoNegocio
+  FROM mercadoria
+ WHERE codigoMercadoria = 1
+[14/10/2016 00:10:51.000000] [RAR\Framework\Database\Data\DataContext::ExecuteReader] [TRACE] - 1 registro(s) encontrado(s)
+[14/10/2016 00:10:51.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->CodigoMercadoria]
+[14/10/2016 00:10:51.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->CodigoMercadoria
+[14/10/2016 00:10:51.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->Tipo]
+[14/10/2016 00:10:51.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->Tipo
+[14/10/2016 00:10:51.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->Nome]
+[14/10/2016 00:10:51.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->Nome
+[14/10/2016 00:10:51.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->Quantidade]
+[14/10/2016 00:10:51.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->Quantidade
+[14/10/2016 00:10:51.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->Preco]
+[14/10/2016 00:10:51.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->Preco
+[14/10/2016 00:10:51.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->TipoNegocio]
+[14/10/2016 00:10:51.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->TipoNegocio
+[14/10/2016 00:10:51.000000] [RAR\Framework\Database\Objects\ObjectContext::GetObject] [TRACE] - Inserindo valor na propriedade [Entities\Mercadoria->CodigoMercadoria]: '1'
+[14/10/2016 00:10:51.000000] [RAR\Framework\Database\Objects\ObjectContext::GetObject] [TRACE] - Inserindo valor na propriedade [Entities\Mercadoria->Tipo]: '1'
+[14/10/2016 00:10:51.000000] [RAR\Framework\Database\Objects\ObjectContext::GetObject] [TRACE] - Inserindo valor na propriedade [Entities\Mercadoria->Nome]: 'teste'
+[14/10/2016 00:10:51.000000] [RAR\Framework\Database\Objects\ObjectContext::GetObject] [TRACE] - Inserindo valor na propriedade [Entities\Mercadoria->Quantidade]: '1'
+[14/10/2016 00:10:51.000000] [RAR\Framework\Database\Objects\ObjectContext::GetObject] [TRACE] - Inserindo valor na propriedade [Entities\Mercadoria->Preco]: '1.00'
+[14/10/2016 00:10:51.000000] [RAR\Framework\Database\Objects\ObjectContext::GetObject] [TRACE] - Inserindo valor na propriedade [Entities\Mercadoria->TipoNegocio]: '1'
+[14/10/2016 00:10:52.000000] [RAR\Framework\Database\Objects\ObjectContext::FillObject] [TRACE] - Preenchendo objeto [Entities\Mercadoria->CodigoMercadoria]: '2'
+[14/10/2016 00:10:53.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->CodigoMercadoria]
+[14/10/2016 00:10:53.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->CodigoMercadoria
+[14/10/2016 00:10:53.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->Tipo]
+[14/10/2016 00:10:53.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->Tipo
+[14/10/2016 00:10:53.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->Nome]
+[14/10/2016 00:10:53.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->Nome
+[14/10/2016 00:10:53.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->Quantidade]
+[14/10/2016 00:10:53.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->Quantidade
+[14/10/2016 00:10:53.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->Preco]
+[14/10/2016 00:10:53.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->Preco
+[14/10/2016 00:10:53.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->TipoNegocio]
+[14/10/2016 00:10:53.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->TipoNegocio
+[14/10/2016 00:10:53.000000] [RAR\Framework\Database\Objects\ObjectContext::GetTableName] [TRACE] - Obtendo tabela da classe [Entities\Mercadoria]: 'mercadoria'
+[14/10/2016 00:10:53.000000] [RAR\Framework\Database\SQL\QueryBuilders\SelectQueryBuilder::ToString] [TRACE] - SQL: 
+SELECT codigoMercadoria, tipo, nome, qntd, preco, tipoNegocio
+  FROM mercadoria
+ WHERE codigoMercadoria = 2
+[14/10/2016 00:10:53.000000] [RAR\Framework\Database\Data\DataContext::ExecuteReader] [TRACE] - 0 registro(s) encontrado(s)
+[14/10/2016 00:10:53.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->CodigoMercadoria]
+[14/10/2016 00:10:53.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->CodigoMercadoria
+[14/10/2016 00:10:53.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->Tipo]
+[14/10/2016 00:10:53.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->Tipo
+[14/10/2016 00:10:53.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->Nome]
+[14/10/2016 00:10:53.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->Nome
+[14/10/2016 00:10:53.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->Quantidade]
+[14/10/2016 00:10:53.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->Quantidade
+[14/10/2016 00:10:53.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->Preco]
+[14/10/2016 00:10:53.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->Preco
+[14/10/2016 00:10:53.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->TipoNegocio]
+[14/10/2016 00:10:53.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->TipoNegocio
+[14/10/2016 00:11:00.000000] [RAR\Framework\Database\Objects\ObjectContext::FillObject] [TRACE] - Preenchendo objeto [Entities\Mercadoria->CodigoMercadoria]: '2'
+[14/10/2016 00:11:00.000000] [RAR\Framework\Database\Objects\ObjectContext::FillObject] [TRACE] - Preenchendo objeto [Entities\Mercadoria->Tipo]: '0'
+[14/10/2016 00:11:00.000000] [RAR\Framework\Database\Objects\ObjectContext::FillObject] [TRACE] - Preenchendo objeto [Entities\Mercadoria->Nome]: 'teste'
+[14/10/2016 00:11:00.000000] [RAR\Framework\Database\Objects\ObjectContext::FillObject] [TRACE] - Preenchendo objeto [Entities\Mercadoria->Quantidade]: '123'
+[14/10/2016 00:11:00.000000] [RAR\Framework\Database\Objects\ObjectContext::FillObject] [TRACE] - Preenchendo objeto [Entities\Mercadoria->Preco]: '123'
+[14/10/2016 00:11:00.000000] [RAR\Framework\Database\Objects\ObjectContext::FillObject] [TRACE] - Preenchendo objeto [Entities\Mercadoria->TipoNegocio]: '1'
+[14/10/2016 00:11:00.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->CodigoMercadoria]
+[14/10/2016 00:11:00.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->CodigoMercadoria
+[14/10/2016 00:11:00.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->Tipo]
+[14/10/2016 00:11:00.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->Tipo
+[14/10/2016 00:11:00.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->Nome]
+[14/10/2016 00:11:00.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->Nome
+[14/10/2016 00:11:00.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->Quantidade]
+[14/10/2016 00:11:00.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->Quantidade
+[14/10/2016 00:11:00.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->Preco]
+[14/10/2016 00:11:00.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->Preco
+[14/10/2016 00:11:00.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->TipoNegocio]
+[14/10/2016 00:11:00.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->TipoNegocio
+[14/10/2016 00:11:00.000000] [RAR\Framework\Database\Objects\ObjectContext::GetTableName] [TRACE] - Obtendo tabela da classe [Entities\Mercadoria]: 'mercadoria'
+[14/10/2016 00:11:00.000000] [RAR\Framework\Database\SQL\QueryBuilders\InsertQueryBuilder::ToString] [TRACE] - SQL: 
+INSERT INTO mercadoria (codigoMercadoria, tipo, nome, qntd, preco, tipoNegocio) VALUES (2, '0', 'teste', 123, 123, '1')
+[14/10/2016 00:11:01.000000] [RAR\Framework\Database\Data\DataContext::ExecuteQuery] [TRACE] - 1 registro(s) afetado(s)
+[14/10/2016 00:11:01.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->CodigoMercadoria]
+[14/10/2016 00:11:01.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->CodigoMercadoria
+[14/10/2016 00:11:01.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->Tipo]
+[14/10/2016 00:11:01.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->Tipo
+[14/10/2016 00:11:01.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->Nome]
+[14/10/2016 00:11:01.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->Nome
+[14/10/2016 00:11:01.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->Quantidade]
+[14/10/2016 00:11:01.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->Quantidade
+[14/10/2016 00:11:01.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->Preco]
+[14/10/2016 00:11:01.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->Preco
+[14/10/2016 00:11:01.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->TipoNegocio]
+[14/10/2016 00:11:01.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->TipoNegocio
+[14/10/2016 00:11:01.000000] [RAR\Framework\Database\Objects\ObjectContext::GetTableName] [TRACE] - Obtendo tabela da classe [Entities\Mercadoria]: 'mercadoria'
+[14/10/2016 00:11:01.000000] [RAR\Framework\Database\SQL\QueryBuilders\SelectQueryBuilder::ToString] [TRACE] - SQL: 
+SELECT codigoMercadoria, tipo, nome, qntd, preco, tipoNegocio
+  FROM mercadoria
+ WHERE codigoMercadoria = 2
+   AND tipo = 0
+   AND nome = 'teste'
+   AND qntd = 123
+   AND preco = 123
+   AND tipoNegocio = 1
+[14/10/2016 00:11:02.000000] [RAR\Framework\Database\Data\DataContext::ExecuteReader] [TRACE] - 1 registro(s) encontrado(s)
+[14/10/2016 00:11:02.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->CodigoMercadoria]
+[14/10/2016 00:11:02.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->CodigoMercadoria
+[14/10/2016 00:11:02.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->Tipo]
+[14/10/2016 00:11:02.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->Tipo
+[14/10/2016 00:11:02.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->Nome]
+[14/10/2016 00:11:02.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->Nome
+[14/10/2016 00:11:02.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->Quantidade]
+[14/10/2016 00:11:02.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->Quantidade
+[14/10/2016 00:11:02.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->Preco]
+[14/10/2016 00:11:02.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->Preco
+[14/10/2016 00:11:02.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->TipoNegocio]
+[14/10/2016 00:11:02.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->TipoNegocio
+[14/10/2016 00:11:02.000000] [RAR\Framework\Database\Objects\ObjectContext::GetObject] [TRACE] - Inserindo valor na propriedade [Entities\Mercadoria->CodigoMercadoria]: '2'
+[14/10/2016 00:11:02.000000] [RAR\Framework\Database\Objects\ObjectContext::GetObject] [TRACE] - Inserindo valor na propriedade [Entities\Mercadoria->Tipo]: '0'
+[14/10/2016 00:11:02.000000] [RAR\Framework\Database\Objects\ObjectContext::GetObject] [TRACE] - Inserindo valor na propriedade [Entities\Mercadoria->Nome]: 'teste'
+[14/10/2016 00:11:02.000000] [RAR\Framework\Database\Objects\ObjectContext::GetObject] [TRACE] - Inserindo valor na propriedade [Entities\Mercadoria->Quantidade]: '123'
+[14/10/2016 00:11:02.000000] [RAR\Framework\Database\Objects\ObjectContext::GetObject] [TRACE] - Inserindo valor na propriedade [Entities\Mercadoria->Preco]: '123.00'
+[14/10/2016 00:11:02.000000] [RAR\Framework\Database\Objects\ObjectContext::GetObject] [TRACE] - Inserindo valor na propriedade [Entities\Mercadoria->TipoNegocio]: '1'
+[14/10/2016 00:11:02.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->CodigoMercadoria]
+[14/10/2016 00:11:02.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->CodigoMercadoria
+[14/10/2016 00:11:02.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->Tipo]
+[14/10/2016 00:11:02.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->Tipo
+[14/10/2016 00:11:02.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->Nome]
+[14/10/2016 00:11:02.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->Nome
+[14/10/2016 00:11:02.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->Quantidade]
+[14/10/2016 00:11:02.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->Quantidade
+[14/10/2016 00:11:02.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->Preco]
+[14/10/2016 00:11:02.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->Preco
+[14/10/2016 00:11:02.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->TipoNegocio]
+[14/10/2016 00:11:02.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->TipoNegocio
+[14/10/2016 00:11:02.000000] [RAR\Framework\Database\Objects\ObjectContext::GetTableName] [TRACE] - Obtendo tabela da classe [Entities\Mercadoria]: 'mercadoria'
+[14/10/2016 00:11:02.000000] [RAR\Framework\Database\SQL\QueryBuilders\SelectQueryBuilder::ToString] [TRACE] - SQL: 
+SELECT codigoMercadoria, tipo, nome, qntd, preco, tipoNegocio
+  FROM mercadoria
+ WHERE codigoMercadoria = 2
+   AND tipo = 0
+   AND nome = 'teste'
+   AND qntd = 123
+   AND preco = 123
+   AND tipoNegocio = 1
+[14/10/2016 00:11:02.000000] [RAR\Framework\Database\Data\DataContext::ExecuteReader] [TRACE] - 1 registro(s) encontrado(s)
+[14/10/2016 00:11:02.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->CodigoMercadoria]
+[14/10/2016 00:11:02.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->CodigoMercadoria
+[14/10/2016 00:11:02.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->Tipo]
+[14/10/2016 00:11:02.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->Tipo
+[14/10/2016 00:11:02.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->Nome]
+[14/10/2016 00:11:02.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->Nome
+[14/10/2016 00:11:02.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->Quantidade]
+[14/10/2016 00:11:02.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->Quantidade
+[14/10/2016 00:11:02.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->Preco]
+[14/10/2016 00:11:02.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->Preco
+[14/10/2016 00:11:02.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->TipoNegocio]
+[14/10/2016 00:11:02.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->TipoNegocio
+[14/10/2016 00:11:02.000000] [RAR\Framework\Database\Objects\ObjectContext::GetObject] [TRACE] - Inserindo valor na propriedade [Entities\Mercadoria->CodigoMercadoria]: '2'
+[14/10/2016 00:11:02.000000] [RAR\Framework\Database\Objects\ObjectContext::GetObject] [TRACE] - Inserindo valor na propriedade [Entities\Mercadoria->Tipo]: '0'
+[14/10/2016 00:11:02.000000] [RAR\Framework\Database\Objects\ObjectContext::GetObject] [TRACE] - Inserindo valor na propriedade [Entities\Mercadoria->Nome]: 'teste'
+[14/10/2016 00:11:02.000000] [RAR\Framework\Database\Objects\ObjectContext::GetObject] [TRACE] - Inserindo valor na propriedade [Entities\Mercadoria->Quantidade]: '123'
+[14/10/2016 00:11:02.000000] [RAR\Framework\Database\Objects\ObjectContext::GetObject] [TRACE] - Inserindo valor na propriedade [Entities\Mercadoria->Preco]: '123.00'
+[14/10/2016 00:11:02.000000] [RAR\Framework\Database\Objects\ObjectContext::GetObject] [TRACE] - Inserindo valor na propriedade [Entities\Mercadoria->TipoNegocio]: '1'
+[14/10/2016 00:11:10.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->CodigoMercadoria]
+[14/10/2016 00:11:10.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->CodigoMercadoria
+[14/10/2016 00:11:10.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->Tipo]
+[14/10/2016 00:11:10.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->Tipo
+[14/10/2016 00:11:10.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->Nome]
+[14/10/2016 00:11:10.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->Nome
+[14/10/2016 00:11:10.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->Quantidade]
+[14/10/2016 00:11:10.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->Quantidade
+[14/10/2016 00:11:10.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->Preco]
+[14/10/2016 00:11:10.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->Preco
+[14/10/2016 00:11:10.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->TipoNegocio]
+[14/10/2016 00:11:10.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->TipoNegocio
+[14/10/2016 00:11:10.000000] [RAR\Framework\Database\Objects\ObjectContext::GetTableName] [TRACE] - Obtendo tabela da classe [Entities\Mercadoria]: 'mercadoria'
+[14/10/2016 00:11:10.000000] [RAR\Framework\Database\SQL\QueryBuilders\SelectQueryBuilder::ToString] [TRACE] - SQL: 
+SELECT codigoMercadoria, tipo, nome, qntd, preco, tipoNegocio
+  FROM mercadoria
+[14/10/2016 00:11:11.000000] [RAR\Framework\Database\Data\DataContext::ExecuteReader] [TRACE] - 2 registro(s) encontrado(s)
+[14/10/2016 00:11:11.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->CodigoMercadoria]
+[14/10/2016 00:11:11.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->CodigoMercadoria
+[14/10/2016 00:11:11.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->Tipo]
+[14/10/2016 00:11:11.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->Tipo
+[14/10/2016 00:11:11.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->Nome]
+[14/10/2016 00:11:11.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->Nome
+[14/10/2016 00:11:11.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->Quantidade]
+[14/10/2016 00:11:11.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->Quantidade
+[14/10/2016 00:11:11.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->Preco]
+[14/10/2016 00:11:11.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->Preco
+[14/10/2016 00:11:11.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->TipoNegocio]
+[14/10/2016 00:11:11.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->TipoNegocio
+[14/10/2016 00:11:11.000000] [RAR\Framework\Database\Objects\ObjectContext::GetObjects] [TRACE] - Inserindo valor na propriedade [Entities\Mercadoria->CodigoMercadoria]: '1'
+[14/10/2016 00:11:11.000000] [RAR\Framework\Database\Objects\ObjectContext::GetObjects] [TRACE] - Inserindo valor na propriedade [Entities\Mercadoria->Tipo]: '1'
+[14/10/2016 00:11:11.000000] [RAR\Framework\Database\Objects\ObjectContext::GetObjects] [TRACE] - Inserindo valor na propriedade [Entities\Mercadoria->Nome]: 'teste'
+[14/10/2016 00:11:11.000000] [RAR\Framework\Database\Objects\ObjectContext::GetObjects] [TRACE] - Inserindo valor na propriedade [Entities\Mercadoria->Quantidade]: '1'
+[14/10/2016 00:11:11.000000] [RAR\Framework\Database\Objects\ObjectContext::GetObjects] [TRACE] - Inserindo valor na propriedade [Entities\Mercadoria->Preco]: '1.00'
+[14/10/2016 00:11:11.000000] [RAR\Framework\Database\Objects\ObjectContext::GetObjects] [TRACE] - Inserindo valor na propriedade [Entities\Mercadoria->TipoNegocio]: '1'
+[14/10/2016 00:11:11.000000] [RAR\Framework\Database\Objects\ObjectContext::GetObjects] [TRACE] - Inserindo valor na propriedade [Entities\Mercadoria->CodigoMercadoria]: '2'
+[14/10/2016 00:11:11.000000] [RAR\Framework\Database\Objects\ObjectContext::GetObjects] [TRACE] - Inserindo valor na propriedade [Entities\Mercadoria->Tipo]: '0'
+[14/10/2016 00:11:11.000000] [RAR\Framework\Database\Objects\ObjectContext::GetObjects] [TRACE] - Inserindo valor na propriedade [Entities\Mercadoria->Nome]: 'teste'
+[14/10/2016 00:11:11.000000] [RAR\Framework\Database\Objects\ObjectContext::GetObjects] [TRACE] - Inserindo valor na propriedade [Entities\Mercadoria->Quantidade]: '123'
+[14/10/2016 00:11:11.000000] [RAR\Framework\Database\Objects\ObjectContext::GetObjects] [TRACE] - Inserindo valor na propriedade [Entities\Mercadoria->Preco]: '123.00'
+[14/10/2016 00:11:11.000000] [RAR\Framework\Database\Objects\ObjectContext::GetObjects] [TRACE] - Inserindo valor na propriedade [Entities\Mercadoria->TipoNegocio]: '1'
+[14/10/2016 00:11:11.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->CodigoMercadoria]
+[14/10/2016 00:11:11.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->CodigoMercadoria
+[14/10/2016 00:11:11.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->Tipo]
+[14/10/2016 00:11:11.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->Tipo
+[14/10/2016 00:11:11.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->Nome]
+[14/10/2016 00:11:11.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->Nome
+[14/10/2016 00:11:11.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->Quantidade]
+[14/10/2016 00:11:11.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->Quantidade
+[14/10/2016 00:11:11.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->Preco]
+[14/10/2016 00:11:11.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->Preco
+[14/10/2016 00:11:11.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->TipoNegocio]
+[14/10/2016 00:11:11.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->TipoNegocio
+[14/10/2016 00:11:11.000000] [RAR\Framework\Database\Objects\ObjectContext::GetTableName] [TRACE] - Obtendo tabela da classe [Entities\Mercadoria]: 'mercadoria'
+[14/10/2016 00:11:11.000000] [RAR\Framework\Database\SQL\QueryBuilders\SelectQueryBuilder::ToString] [TRACE] - SQL: 
+SELECT codigoMercadoria, tipo, nome, qntd, preco, tipoNegocio
+  FROM mercadoria
+[14/10/2016 00:11:12.000000] [RAR\Framework\Database\Data\DataContext::ExecuteReader] [TRACE] - 2 registro(s) encontrado(s)
+[14/10/2016 00:11:12.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->CodigoMercadoria]
+[14/10/2016 00:11:12.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->CodigoMercadoria
+[14/10/2016 00:11:12.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->Tipo]
+[14/10/2016 00:11:12.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->Tipo
+[14/10/2016 00:11:12.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->Nome]
+[14/10/2016 00:11:12.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->Nome
+[14/10/2016 00:11:12.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->Quantidade]
+[14/10/2016 00:11:12.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->Quantidade
+[14/10/2016 00:11:12.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->Preco]
+[14/10/2016 00:11:12.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->Preco
+[14/10/2016 00:11:12.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Obtendo Annotation da Propriedade [Entities\Mercadoria->TipoNegocio]
+[14/10/2016 00:11:12.000000] [RAR\Framework\Database\Objects\ObjectContext::GetCustomAttributes] [TRACE] - Inserindo valores na classe Properties para a Propriedade: Entities\Mercadoria->TipoNegocio
+[14/10/2016 00:11:12.000000] [RAR\Framework\Database\Objects\ObjectContext::GetObjects] [TRACE] - Inserindo valor na propriedade [Entities\Mercadoria->CodigoMercadoria]: '1'
+[14/10/2016 00:11:12.000000] [RAR\Framework\Database\Objects\ObjectContext::GetObjects] [TRACE] - Inserindo valor na propriedade [Entities\Mercadoria->Tipo]: '1'
+[14/10/2016 00:11:12.000000] [RAR\Framework\Database\Objects\ObjectContext::GetObjects] [TRACE] - Inserindo valor na propriedade [Entities\Mercadoria->Nome]: 'teste'
+[14/10/2016 00:11:12.000000] [RAR\Framework\Database\Objects\ObjectContext::GetObjects] [TRACE] - Inserindo valor na propriedade [Entities\Mercadoria->Quantidade]: '1'
+[14/10/2016 00:11:12.000000] [RAR\Framework\Database\Objects\ObjectContext::GetObjects] [TRACE] - Inserindo valor na propriedade [Entities\Mercadoria->Preco]: '1.00'
+[14/10/2016 00:11:12.000000] [RAR\Framework\Database\Objects\ObjectContext::GetObjects] [TRACE] - Inserindo valor na propriedade [Entities\Mercadoria->TipoNegocio]: '1'
+[14/10/2016 00:11:12.000000] [RAR\Framework\Database\Objects\ObjectContext::GetObjects] [TRACE] - Inserindo valor na propriedade [Entities\Mercadoria->CodigoMercadoria]: '2'
+[14/10/2016 00:11:12.000000] [RAR\Framework\Database\Objects\ObjectContext::GetObjects] [TRACE] - Inserindo valor na propriedade [Entities\Mercadoria->Tipo]: '0'
+[14/10/2016 00:11:12.000000] [RAR\Framework\Database\Objects\ObjectContext::GetObjects] [TRACE] - Inserindo valor na propriedade [Entities\Mercadoria->Nome]: 'teste'
+[14/10/2016 00:11:12.000000] [RAR\Framework\Database\Objects\ObjectContext::GetObjects] [TRACE] - Inserindo valor na propriedade [Entities\Mercadoria->Quantidade]: '123'
+[14/10/2016 00:11:12.000000] [RAR\Framework\Database\Objects\ObjectContext::GetObjects] [TRACE] - Inserindo valor na propriedade [Entities\Mercadoria->Preco]: '123.00'
+[14/10/2016 00:11:12.000000] [RAR\Framework\Database\Objects\ObjectContext::GetObjects] [TRACE] - Inserindo valor na propriedade [Entities\Mercadoria->TipoNegocio]: '1'
