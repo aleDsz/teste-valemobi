@@ -42,5 +42,5 @@ aleDsz.config(function($stateProvider, $urlRouterProvider) {
 				controller: 'MainController'
 			}
 		}
-	})
+	});
 });
