@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"description": "",
 	"scripts": {
-		"start": "",
+		"start": "cd src && php -S localhost:8080",
 		"test": "grunt test"
 	},
 	"repository": {
