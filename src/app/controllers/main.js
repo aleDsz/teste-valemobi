@@ -16,11 +16,11 @@ aleDsz.controller("MainController", function ($rootScope, $scope, $http, $q, Web
 
 	$rootScope.getTipoMercadoria = function(index) {
 		return $rootScope.tipoMercadoria[index];
-	}
+	};
 
 	$rootScope.getTipoNegocio = function(index) {
 		return $rootScope.tipoNegocio[index];
-	}
+	};
 
 	$rootScope.checkIfExists = function() {
 		var query = { CodigoMercadoria : $rootScope.Mercadoria.CodigoMercadoria };
@@ -32,7 +32,7 @@ aleDsz.controller("MainController", function ($rootScope, $scope, $http, $q, Web
 				$rootScope.message = "Este código pode ser utilizado!";
 			}
 		});
-	}
+	};
 
 	$rootScope.obterTodos = function() {
 		$rootScope.message = "Carregando lista . . .";
@@ -40,36 +40,36 @@ aleDsz.controller("MainController", function ($rootScope, $scope, $http, $q, Web
 			$rootScope.message = "";
 			$rootScope.Mercadorias = response;
 		});
-	}
+	};
 
 	$rootScope.checkIfObjectIsNotNull = function() {
-		if ($rootScope.Mercadoria.CodigoMercadoria == null) {
+		if ($rootScope.Mercadoria.CodigoMercadoria === null) {
 			$rootScope.message = "O campo Código está nulo, favor preencher corretamente";
 			return false;
 		}
-		else if ($rootScope.Mercadoria.Tipo == null) {
+		else if ($rootScope.Mercadoria.Tipo === null) {
 			$rootScope.message = "O campo Tipo de Mercadoria está nulo, favor preencher corretamente";
 			return false;
 		}
-		else if ($rootScope.Mercadoria.Nome == null) {
+		else if ($rootScope.Mercadoria.Nome === null) {
 			$rootScope.message = "O campo Nome está nulo, favor preencher corretamente";
 			return false;
 		}
-		else if ($rootScope.Mercadoria.Quantidade == null) {
+		else if ($rootScope.Mercadoria.Quantidade === null) {
 			$rootScope.message = "O campo Quantidade está nulo, favor preencher corretamente";
 			return false;
 		}
-		else if ($rootScope.Mercadoria.Preco == null) {
+		else if ($rootScope.Mercadoria.Preco === null) {
 			$rootScope.message = "O campo Preço está nulo, favor preencher corretamente";
 			return false;
 		}
-		else if ($rootScope.Mercadoria.TipoNegocio == null) {
+		else if ($rootScope.Mercadoria.TipoNegocio === null) {
 			$rootScope.message = "O campo Tipo de Negócio está nulo, favor preencher corretamente";
 			return false;
 		}
 		else
 			return true;
-	}
+	};
 
 	$rootScope.cadastrar = function() {
 		if ($rootScope.checkIfObjectIsNotNull) {
@@ -90,6 +90,6 @@ aleDsz.controller("MainController", function ($rootScope, $scope, $http, $q, Web
 				}
 			});
 		}
-	}
+	};
 
 });
