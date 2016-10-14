@@ -4,7 +4,7 @@
 	"description": "",
 	"scripts": {
 		"start": "cd src && php -S localhost:8080",
-		"test": "php test/index.php"
+		"test": "grunt test"
 	},
 	"repository": {
 		"type": "git",
@@ -20,5 +20,11 @@
 	"bugs": {
 		"url": "https://github.com/aleDsz/teste-valemobi/issues"
 	},
-	"homepage": "https://github.com/aleDsz/teste-valemobi#readme"
+	"homepage": "https://github.com/aleDsz/teste-valemobi#readme",
+	"devDependencies": {
+		"grunt": ">=0.4.0 <1.0.0",
+		"grunt-contrib-jshint": "^1.0.0",
+		"grunt-html-test": "^0.1.6",
+		"grunt-js-test": "^1.5.12"
+	}
 }

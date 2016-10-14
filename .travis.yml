@@ -1,0 +1,10 @@
+language: node_js
+
+install:
+  - 'nvm install node'
+  - 'npm install npm'
+  - 'npm install -g grunt-cli'
+  - 'npm install'
+
+script:
+  - 'npm test'

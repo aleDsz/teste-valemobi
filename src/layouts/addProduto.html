@@ -1,0 +1,50 @@
+<!-- Product Form -->
+<div class="ui main text container">
+	<h1 class="ui header center aligned">Cadastrar um novo produto</h1>
+	<h2 class="ui header center aligned">{{ message }}</h2>
+	<form class="ui form">
+		<div class="field">
+			<label>Código</label>
+			<input type="number" ng-Model="Mercadoria.CodigoMercadoria" ng-Change="checkIfExists()" required />
+		</div>
+		<div class="field">
+			<label>Tipo de Mercadoria</label>
+			<select ng-Model="Mercadoria.Tipo" class="ui fluid dropdown" required>
+				<option selected disabled ng-Value="">Selecione um tipo de mercadoria</option>
+				<option ng-Value="0">Placa-mãe</option>
+				<option ng-Value="1">Placa de vídeo</option>
+				<option ng-Value="2">Processador</option>
+				<option ng-Value="3">Monitor</option>
+				<option ng-Value="4">Memória RAM</option>
+				<option ng-Value="5">HD/SSD</option>
+				<option ng-Value="6">Leitor/Gravador de CD/DVD</option>
+				<option ng-Value="7">Gabinete</option>
+				<option ng-Value="8">Mouse</option>
+				<option ng-Value="9">Teclado</option>
+				<option ng-Value="10">Fonte de Alimentação</option>
+				<option ng-Value="11">Headset</option>
+			</select>
+		</div>
+		<div class="field">
+			<label>Nome</label>
+			<input type="text" ng-Model="Mercadoria.Nome" class="text-upper" required />
+		</div>
+		<div class="field">
+			<label>Quantidade</label>
+			<input type="number" ng-Model="Mercadoria.Quantidade" required />
+		</div>
+		<div class="field">
+			<label>Preço</label>
+			<input type="number" ng-Model="Mercadoria.Preco" required />
+		</div>
+		<div class="field">
+			<label>Tipo de Negócio</label>
+			<select ng-Model="Mercadoria.TipoNegocio" class="ui fluid dropdown" required>
+				<option selected disabled ng-Value="">Selecione um tipo de negócio</option>
+				<option ng-Value="0">Compra</option>
+				<option ng-Value="1">Venda</option>
+			</select>
+		</div>
+		<button class="ui green button" ng-Click="cadastrar()">Cadastrar</button>
+	</form>
+</div>

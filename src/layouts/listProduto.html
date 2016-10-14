@@ -1,0 +1,27 @@
+<!-- Product List -->
+<div class="ui main text container" ng-Init="obterTodos()">
+	<h1 class="ui header center aligned">Produtos cadastrados</h1>
+	<h2 class="ui header center aligned">{{ message }}</h2>
+	<table class="ui single line table">
+		<thead>
+			<tr>
+				<th>Código</th>
+				<th>Tipo de Mercadoria</th>
+				<th>Nome</th>
+				<th>Quantidade</th>
+				<th>Preço</th>
+				<th>Tipo de Negócio</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr ng-Repeat="prod in Mercadorias">
+				<td>{{ prod.CodigoMercadoria }}</td>
+				<td>{{ getTipoMercadoria(prod.Tipo) }}</td>
+				<td>{{ prod.Nome }}</td>
+				<td>{{ prod.Quantidade }}</td>
+				<td>{{ prod.Preco }}</td>
+				<td>{{ getTipoNegocio(prod.TipoNegocio) }}</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
